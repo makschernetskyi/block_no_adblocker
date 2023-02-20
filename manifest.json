@@ -1,0 +1,16 @@
+{
+	"manifest_version": 3,
+	"name": "no_adblocker_remover",
+	"version": "0.01",
+	"description": "removes modal icon that requires to disable ads blocker, logo was taken from: www.flaticon.com/free-icons/ad-block",
+	"author":"Maksym Chernetskyi",
+	"content_scripts":[
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+	"action":{
+		"default_icon": "./assets/favicon/no.png"
+	}
+}
