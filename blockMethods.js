@@ -32,13 +32,6 @@ const blockMethods = {
 				console.error(err);
 		}
 	},
-	"yourtemplate.url": ()=>{
-		try{
-			//paste your removing no-adblockmessage actions here
-		}catch(err){
-			if(DEBUG_MODE)
-				console.error(err);
-		}
-	}
+	//your blocking methods
 
 }
