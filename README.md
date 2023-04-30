@@ -12,6 +12,7 @@ the website. Viva la libertad!
 1. Clone this repo
 2. open blockMethods.js file, it contains blockMethods object, add your blocking method named like
 the website it is supposed to work with. For convinience there is template of a method inside the file.
+<br/>
 `"yourtemplate.url": ()=>{
 		try{
 			//paste your removing no-adblockmessage actions here
@@ -19,6 +20,8 @@ the website it is supposed to work with. For convinience there is template of a 
 			if(DEBUG_MODE)
 				console.error(err);
 		}
-	}`
+	}
+`
+<br/>
 3. load this modified extension to your chromium-based browser.
 4. have fun! 
