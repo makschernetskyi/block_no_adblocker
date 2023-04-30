@@ -4,6 +4,10 @@
 	"version": "0.02",
 	"description": "removes modal icon that requires to disable ads blocker, logo was taken from: www.flaticon.com/free-icons/ad-block",
 	"author":"Maksym Chernetskyi",
+	"developer": {
+  		"name": "Maksym Chernetskyi",
+  		"url": "https://github.com/makschernetskyi"
+	},
 	"content_scripts":[
 		{
 			"matches": ["<all_urls>"],
