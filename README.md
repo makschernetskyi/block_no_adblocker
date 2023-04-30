@@ -20,6 +20,7 @@ the website it is supposed to work with. For convinience there is template of a 
 		if(DEBUG_MODE)
 			console.error(err);
 	}
-}```
+}
+```
 3. load this modified extension to your chromium-based browser.
 4. have fun! 
